@@ -21,26 +21,26 @@ sidebar:
   linkedin: # Your LinkedIn profile URL
   github: # Your GitHub profile URL
 
-languages:
-  title: Languages
-  info:
-    - idiom: Portuguese
-      level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Portuguese
+        level: Native
 
-    - idiom: English
-      level: Professional
+      - idiom: English
+        level: Professional
 
-    - idiom: Spanish
-      level: Professional
+      - idiom: Spanish
+        level: Professional
 
-interests:
-  title: Interests
-  info:
-    - item: Skateboarding
+  interests:
+    title: Interests
+    info:
+      - item: Skateboarding
 
-    - item: Snowboarding
+      - item: Snowboarding
 
-    - item: Padel
+      - item: Padel
 
 career-profile:
   title: Career Profile
