@@ -1,0 +1,25 @@
+{% assign tech-skills = site.data.data.tech-skills %}
+{% if tech-skills %}
+<section class="section tech-skills-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ tech-skills.title }}
+  </h2>
+
+  {% for skills in tech-skills.info %}
+  <div class="item">
+    {% if skills.details %}
+    <div class="details">
+      {{ skills.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+

@@ -77,7 +77,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 200px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     //border-radius: 100%;
@@ -269,6 +269,26 @@ p {
   .level-bar-inner {
     height: 12px;
     background: lighten($theme-color, 15%);
+  }
+}
+
+.skillset-sidebar {
+  .item {
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  .level-title {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .level-bar {
+    height: 12px;
+    background: lighten($theme-color, 15%);
+  }
+  .level-bar-inner {
+    height: 12px;
+    background: $smoky-white;
   }
 }
 

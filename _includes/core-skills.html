@@ -1,0 +1,26 @@
+{% assign core-skills = site.data.data.core-skills %} {% if core-skills %}
+<section class="section core-skills-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ core-skills.title }}
+  </h2>
+
+  {% for skills in core-skills.list %}
+  <div class="item">
+    <div class="meta">
+      <p class="upper-row">
+        <h3 class="cert-title">{{ skills.name }}</h3>
+      </p>
+      <!--//upper-row-->
+    </div>
+    <!--//meta-->
+    <div class="details">{{ skills.details | markdownify }}</div>
+  </div>
+  <!--//item-->
+  {% endfor %}
+</section>
+<!--//section-->
+{% endif %}

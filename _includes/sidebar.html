@@ -19,6 +19,10 @@
 
   {% include contact.html %}
 
+  {% if sidebar.skills-sidebar %}
+    {% include skills-sidebar.html %}
+  {% endif %}
+
   {% if sidebar.education %}
     {% include education.html %}
   {% endif %}
