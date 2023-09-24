@@ -18,7 +18,7 @@ sidebar:
   timezone: Western European Time · UTC/GMT +1 hour
   citizenship: Portuguese
   website: # Your website URL
-  linkedin: # Your LinkedIn profile URL
+  linkedin: pedro-carreira
   github: # Your GitHub profile URL
 
   languages:
@@ -36,11 +36,11 @@ sidebar:
   interests:
     title: Interests
     info:
-      - item: Skateboarding
+      - item: Padel
+
+      - item: Skateboarding (champion '05 and '07)
 
       - item: Snowboarding
-
-      - item: Padel
 
   skills-sidebar:
     title: Skills & Proficiency
@@ -89,7 +89,7 @@ core-skills:
     - name: Programming
       details: >
         I'm proficient in functional and object-oriented programming with a specialization in backend development, excelling in PHP and Laravel for building robust systems.
-        In frontend development, I'm highly skilled in JavaScript, TypeScript, Angular 2+, and Vue.js, creating dynamic, user-centric interfaces.
+        In frontend development, I'm skilled in JavaScript, TypeScript, Angular 2+, and Vue.js, creating dynamic, user-centric interfaces.
     - name: Business Analytics
       details: >
         In my previous role as an Associate Business Consultant, I was responsible for evaluating complex business requirements, maintaining clear communication with clients, conducting thorough functional analyses, and actively contributing to the implementation of CRM solutions, including database modeling and PowerBI report creation.  
@@ -98,82 +98,108 @@ tech-skills:
   title: Other Technological Knowledge
   info:
     - details: |
-        - HTML & CSS, JavaScript & TypeScript, Angular 2+, VUE 3, React, Ionic, Capacitor, Cordova
+        - PHP, Laravel, HTML & CSS, JavaScript & TypeScript
+        - Angular 2+, VUE 3, React, Ionic, Capacitor, Cordova
         - SQL, MySQL, PostgreSQL, Oracle, SQLite, MongoDB, CouchDB, PouchDB
-        - PHP, Laravel
         - Docker, Docker Compose, IBM Cloud Platform, Linux
-        - DDD, Hexagonal & Clean Architecture, Unit & Featuring Test, MVC, Websockets, Microservices
-        - APIs and integration protocols - REST, GraphQL
+        - Python, Spark
+        - DDD, Hexagonal & Clean Architecture, Unit & Featuring Test, MVC, Microservices
+        - APIs and integration protocols - REST, GraphQL, WebSocket
         - DevOps tools - CI/CD with Jenkins
 
 experiences:
   title: Professional Experience
   info:
-    - role: Senior Full-Stack Developer
+    - role: Senior Full-Stack Software Developer
       time: January 2021 - Present
-      company: lTNOW
+      company: ITnow (CaixaBank IT partner)
+      workplace: Remote
       details: >
-        At lTNOW, I serve as a Senior Full-Stack Developer, responsible for both backend and frontend development. I work on projects for CaixaBank, one of Europe's largest banking groups. My role includes designing and maintaining web applications, database management, and implementing real-time solutions using Websockets. I have successfully delivered tools to support the information systems department's operations, improving efficiency and automation.
+        At ITnow, I serve as a Senior Full-Stack Developer, responsible for both backend and frontend development. I 
+        work on projects for CaixaBank, one of Europe's largest banking groups. My role includes designing and maintaining web applications, database management, and implementing real-time solutions using Websockets. I have successfully delivered tools to support the information systems department's operations, improving efficiency and automation.
 
-    - role: Full Stack Developer
+    - role: Software Backend/Full-Stack Developer
       time: December 2018 - December 2020
-      company: Alter Solutions Portugal
+      company: Alter Solutions
+      workplace: Lisbon and remote
       details: >
-        As a Full Stack Developer at Alter Solutions Portugal, I contributed to projects for PSA (Peugeot Citroën), a leading automotive group. I was involved in both backend and frontend development, REST API development, and database modeling. My work also included document management, sensor calibration, and budget management applications. I collaborated with cross-functional teams to deliver effective solutions.
+        As a Full Stack Developer at Alter Solutions, I contributed to projects for PSA (Peugeot Citroën), a leading automotive group. I was involved in both backend and frontend development, REST API development, and database modeling. My work also included document management, sensor calibration, and budget management applications. I collaborated with cross-functional teams to deliver effective solutions.
 
-    - role: Developer
+    - role: Software Developer
       time: October 2017 - November 2018
-      company: Wezard Concept - New Technologies
+      company: Wezard Concept - New Technologies (Software House)
+      workplace: Lisbon
       details: >
         During my tenure at Wezard Concept - New Technologies, I worked on various projects, including the development of an Enterprise Resource Planning (ERP) system for an SME company. I designed and implemented different ERP modules, following best practices in software architecture. Additionally, I contributed to projects in the health sector, public sector, and energy sector, gaining valuable experience in diverse domains.
 
     - role: Associate Consultant
       time: January 2015 - November 2016
       company: Capgemini Consulting
+      workplace: Lisbon
       details: >
         As an Associate Consultant at Capgemini Consulting, I worked on projects in the insurance, public, and banking sectors. I played a key role in implementing a commercial platform for Lusitania Seguros S.A., analyzing business processes, and developing analytical reports using Microsoft Dynamics CRM and PowerBI. I also contributed to projects related to economic and financial analysis, social security sustainability, and local strategic development plans.
 
-    - role: Business Analyst (Internship)
-      time: July 2014 - January 2015
-      company: Capgemini Consulting
-      details: >
-        During my internship at Capgemini Consulting, I gained practical experience in change management and business analysis. I assisted in creating business proposals and worked on various projects related to financial analysis, regulatory reports, and strategic development.
-
 projects:
-  title: Projects
+  title: Selected Projects
   intro: >
-    You can list your side projects in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: Documentation Management Tool
+      tagline: >
+        PSA tool for streamlined management of car parts documentation, encompassing specifications, reviews, and quality evaluations, all tracked through a straightforward status system.
 
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: Budget Management Tool
+      tagline: >
+        Versatile PSA tool with version control to manage costs across diverse programs, projects, and business units
+        during the manufacturing of new car models and parts.
+      techs: |
+        - PHP / Laravel 7
+        - Typescript / Angular 9
+        - REST API
+        - Docker, Jenkins
+        - MySQL
 
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Equipment Inventory Tool
+      tagline: >
+        Mobile Web App and Desktop Application for the National Water Company to streamline inventory management for remote dams. 
+        Frontend interface and backend with offline capabilities, facilitating the inclusion of equipment photos and status.
+      techs: |
+        - Typescript / Angular 2+
+        - Ionic, Capacitor
+        - Electron
+        - CouchDB, PouchDB
 
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Contingency and Recovery System Plans Tool
+      tagline: >
+        CaixaBank tool for facilitating the management of systems and recovery plans with real-time monitoring using 
+        websockets technology.
 
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: System Emergency Monitoring Tool
+      tagline: >
+        Specialized CaixaBank tool to monitor system statuses and promptly alert operators with a dashboard.
+
+    - title: Alerting and Incident Response Tool
+      tagline: >
+        CaixaBank tool for managing system alerts and incidents through Opsgenie API integration.
+
+    - title: ETL Managing Tool
+      tagline: >
+        CaixaBank tool for managing wharehouse data using jobs and batch processing.
+      techs: |
+        - PHP / Laravel 9
+        - Javascript
+        - WebSocket
+        - REST API
+        - MySQL, Oracle SQL
+        - Docker, IBM Cloud Platform
 
 volunteer-experiences:
   title: Volunteer Experience
   info:
-    - role: Field Consultant
-      time: January 2021 - Present
-      company: lTNOW
+    - role: Field Volunteer
+      time: August 2012 – February 2013
+      company: MOVE NGO | São Tomé and Príncipe, Africa
       details: >
-        At lTNOW, I serve as a Senior Full-Stack Developer, responsible for both backend and frontend development. I work on projects for CaixaBank, one of Europe's largest banking groups. My role includes designing and maintaining web applications, database management, and implementing real-time solutions using Websockets. I have successfully delivered tools to support the information systems department's operations, improving efficiency and automation.
+        Inspired by Muhammad Yunus, the 2006 Nobel Peace Prize laureate and author of 'Banker to the Poor,' I volunteered for Move, an NGO with 35 team members (5 in the field) operating across Africa, Asia, and Europe (Azores). Over a seven-month program, my team and I provided business consultancy and support to local enterprises, fostering new business ventures while assessing their potential impact on entrepreneurs' families and communities. This involved organizing a competition for over 540 entrepreneurs, conducting workshops, and offering multiple consultancy sessions. Additionally, we conducted English classes for children and collaborated closely with NGOs like AMI and the Italian NGO ALISEI.
 
 certifications:
   title: Certifications
@@ -189,8 +215,7 @@ certifications:
         I completed a comprehensive Data Science course, where I gained proficiency in Python, Big Data Technologies, Quantitative & Statistical Analysis, Machine Learning Models, and more. I have a strong foundation in data science and analytics.
 
     - name: Front End Frameworks – React
-      start: September 2022
-      end: October 2022
+      start: September 2022 - October 2022
       organization: RUMOS Consulting
       credentialid: # Your credential ID if applicable
       credentialurl: # URL to your certification if applicable
@@ -198,20 +223,48 @@ certifications:
       details: >
         I successfully completed a Front End Frameworks course focused on React. This certification reflects my expertise in building modern web applications using React, including component development, state management, and form validation.
 
+    - name: Front End Frameworks – Angular 2+
+      start: September 2019 - November 2019
+      organization: Alter Solutions (internal)
+      credentialid: # Your credential ID if applicable
+      credentialurl: # URL to your certification if applicable
+      credentialname: # Name of your certification if applicable
+      details: >
+        I successfully completed a Front End Frameworks course focused on Angular. This certification reflects my 
+        expertise in building modern web applications using Angular, including component development, state management, and form validation.
+
+    - name: Full-stack Web Development Course
+      start: October 2016
+      end: July 2017
+      organization: ETIC - Escola de Tecnologias Inovação e Criação (School of Technology Innovation)
+      credentialid: # Your credential ID if applicable
+      credentialurl: # URL to your certification if applicable
+      credentialname: # Name of your certification if applicable
+      details: >
+        I've learned web development, including HTML5, CSS3, JavaScript/jQuery for interactive layouts, responsive 
+        design, server-side PHP, PHP+SQL integration, online stores, and integrating social media and mapping services. I can also create mobile apps using PhoneGap.
+
 education:
   title: Education
   info:
     - degree: MSc in Business Administration
       university: Católica Lisbon School of Business & Economics
-      time: 2011 - 2012
+      time: 2013 - 2015
       details: >
-        I completed my Master of Science in Computer Science at the University of London, where I gained advanced knowledge in computer science, software development, and data analysis. My coursework included database management, algorithms, and software engineering principles.
+        Major in Strategy & Entrepreneurship
+        
 
     - degree: BSc in Economics
       university: Católica Lisbon School of Business & Economics
-      time: 2007 - 2011
+      time: 2009 - 2013
       details: >
-        I earned my Bachelor of Science in Applied Mathematics from Bristol University. During my undergraduate studies, I developed a strong foundation in mathematics, problem-solving, and critical thinking. I also took courses in computer science, which sparked my interest in software development.
+        Merit Scholarship in the 2009-2010 academic year.
+
+    - degree: BSc in Economics
+      university: UNIVERSITAT AUTÒNOMA DE BARCELONA, Facultat d´Economia i Empresa
+      time: 2011
+      details: >
+        Exchange Program - Erasmus
 
 skills:
   title: Skills & Proficiency
@@ -242,6 +295,3 @@ skills:
 
     - name: Git & Version Control
       level: 98%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
