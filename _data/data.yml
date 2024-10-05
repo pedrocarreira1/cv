@@ -111,7 +111,15 @@ experiences:
   title: Professional Experience
   info:
     - role: Senior Full-Stack Software Developer
-      time: January 2021 - Present
+      time: April 2024 - Present
+      company: Codana - Calibrate
+      workplace: Remote
+      details: >
+        As a Full Stack Developer at Codana, I contributed to projects in both backend and frontend development, REST
+        API development. My work included developing applications for belgium public sector and healthcare. 
+        Updates and maintenance for EOL versions.
+    - role: Senior Full-Stack Software Developer
+      time: January 2021 - April 2024
       company: ITnow (CaixaBank IT partner)
       workplace: Remote
       details: >
@@ -143,6 +151,33 @@ projects:
   title: Selected Projects
   intro: >
   assignments:
+    - title: TDMS (Tourism Data Managemet System)
+      tagline: >
+        Admin tool for managing bookings, schedules and emit permits licenses
+      techs: |
+        - PHP / Laravel 11
+        - Laravel Nova
+        - Docker, Jenkins
+        - MySQL
+
+    - title:  Healthcare monitor tool
+      tagline: >
+        Admin tool for managing patient recoveries
+      techs: |
+        - PHP / Laravel 11
+        - Vue
+        - Docker, Jenkins
+        - MySQL
+
+    - title:  Ecommerce tool
+      tagline: >
+        Admin tool for managing ecommerce and showroom store
+      techs: |
+        - PHP / Laravel 11
+        - Javascript
+        - Backpack
+        - MySQL
+
     - title: Documentation Management Tool
       tagline: >
         PSA tool for streamlined management of car parts documentation, encompassing specifications, reviews, and quality evaluations, all tracked through a straightforward status system.
