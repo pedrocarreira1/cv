@@ -279,17 +279,23 @@ certifications:
       credentialname: # Name of your certification if applicable
       details: >
         I've learned web development, including HTML5, CSS3, JavaScript/jQuery for interactive layouts, responsive 
-        design, server-side PHP, PHP+SQL integration, online stores, and integrating social media and mapping services. I can also create mobile apps using PhoneGap.
+        design, server-side PHP, PHP+SQL integration, online stores, and integrating social media and mapping services. 
+        I can also create mobile apps using PhoneGap.
 
 education:
   title: Education
   info:
+    - degree: Full-stack Web Development Course
+      university: ETIC - Escola de Tecnologias Inovação e Criação (School of Technology Innovation)
+      time: 2016 - 2017
+      details: >
+        PHP, MySQL, JavaScript, CMS (Content Management Systems), E-commerce and Mobile development.  
+
     - degree: MSc in Business Administration
       university: Católica Lisbon School of Business & Economics
       time: 2013 - 2015
       details: >
         Major in Strategy & Entrepreneurship
-        
 
     - degree: BSc in Economics
       university: Católica Lisbon School of Business & Economics
