@@ -112,16 +112,17 @@ experiences:
   info:
     - role: Senior Full-Stack Software Developer
       time: April 2024 - Present
-      company: Codana - Calibrate
-      workplace: Remote
+      company: Codana
+      workplace: Remote to Belgium
       details: >
-        As a Full Stack Developer at Codana, I contributed to projects in both backend and frontend development, REST
-        API development. My work included developing applications for belgium public sector and healthcare. 
-        Updates and maintenance for EOL versions.
+        At Codana, I worked on full stack development, contributing to both backend and frontend systems. 
+        I developed and maintained REST APIs and built applications across various sectors, including public sector, education, e-commerce, and healthcare. 
+        My responsibilities also included upgrading and maintaining legacy systems (EOL versions) for performance and security improvements.
+
     - role: Senior Full-Stack Software Developer
       time: January 2021 - April 2024
-      company: ITnow (CaixaBank IT partner) via Experis
-      workplace: Remote
+      company: ITnow (CaixaBank IT partner)
+      workplace: Remote to Barcelona
       details: >
         At ITnow, I serve as a Senior Full-Stack Developer, responsible for both backend and frontend development. I 
         work on projects for CaixaBank, one of Europe's largest banking groups. My role includes designing and maintaining web applications, database management, and implementing real-time solutions using Websockets. I have successfully delivered tools to support the information systems department's operations, improving efficiency and automation.
@@ -156,6 +157,7 @@ projects:
         Admin tool for managing bookings, schedules and emit permits licenses
       techs: |
         - PHP / Laravel 11
+        - Vue
         - Laravel Nova
         - Docker, Jenkins
         - MySQL
